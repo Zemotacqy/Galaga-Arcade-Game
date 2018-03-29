@@ -1,0 +1,61 @@
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/shoot-game.css">
+
+    <!--Bootstrap3 support js+css support-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+
+
+
+    <title>Shoot The Enemy</title>
+  </head>
+  <body class="container-fluid">
+    <div>
+      
+	  <br>
+	  
+    <center>
+      <h1>Shoot The Enemies</h1>
+      <br>
+      <div id="play"><button class="btn btn-success"><i class="far fa-play-circle"></i> Play</button></div>
+    </center>
+    <div class="positioned-element container" id="game">
+      <div id="upper-offset"><h2 align="right">Score: 0</h2></div>
+      <canvas id="mycanvas"></canvas>
+      <div id="destroyer"></div>
+    </div>
+	  <br><br>
+    <div class="control-buttons container">
+      <center><button class="btn btn-primary mr-2 disabled" id="left"><i class="fas fa-angle-left"></i></button>
+      <button class="btn btn-danger disabled" id="fire">FIRE!!!</button>
+      <button class="btn btn-primary ml-2 disabled" id="right"><i class="fas fa-angle-right"></i></button></center>
+    </div>
+    <br><br>
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	  <!-- Custom js scripts -->
+    <script src="./js/shoot-game.js"></script>
+
+  </body>
+</html>
